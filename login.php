@@ -9,12 +9,12 @@
         <div class="login">
             <img class="avatar"src="img/2.jpg" alt="Logo de TECNM">
             <h1>Inicio</h1>
-            <form>
+            <form method="post" action="Conexion/validacion.php">
                 <label for="Usuario">Usuario</label>
-                <input type="text" placeholder="Usuario">
+                <input type="text" placeholder="Usuario" name="usuario">
 
                 <label for="password">Clave</label>
-                <input type="password" placeholder="password">
+                <input type="password" placeholder="password" name="pass">
 
                 <input class="btn" type="submit" value="Inicio de Sesion" >
                 <a href="#">"No has podido iniciar sesion"</a>
