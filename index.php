@@ -34,8 +34,9 @@
           <a class="nav-link active" href="#">Empresa</a>
           <a class="nav-link active" href="#">Departamentos</a>
           <a class="nav-link active " href="#">Asesores</a>
+          <a class="nav-link active" href="#">Alumno</a>
           <a class="nav-link active" href="#">Descarga</a>
-          <a class="nav-link active" href="#">Entrar</a>
+          <a class="nav-link active" href="./Tecnologico/login.php">Entrar</a>
           <a class="nav-link active" href="#">Registrar</a>
         </div>
       </div>
