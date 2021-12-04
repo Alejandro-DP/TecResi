@@ -3,7 +3,7 @@
     <head>
 <meta charset="utf 8">
             <title>LoginTecnologico Campus Cancun </title>
-            <link rel="stylesheet"href="status.css">
+            <link rel="stylesheet"href="CSS/status.css">
         <body>
             <title>ESTATUS DE LA RESIDENCIA</title>
         </body>

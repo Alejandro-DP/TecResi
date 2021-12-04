@@ -1,5 +1,4 @@
 <?php
-session_start();
 
 $nombre = $_POST['usuario'];
 $password = $_POST['pass'];
@@ -7,25 +6,35 @@ $password = $_POST['pass'];
 
 require_once '../Conexion/conexion.php';
 
-$consulta = mysqli_query ($conexion, "SELECT * FROM usuario WHERE usuario = '$nombre' AND contraseña = '$password'");
 
 
 if (empty($nombre && $password)){
 	echo "
 	<script>
     alert('Debes de llenar los campos');
-   location.href='../index.php';
+   location.href='../login.php';
 	</script>;
 	
 	";
 }
-else{   
-$consulta="SELECT *FROM usuario WHERE usuario ='$nombre' AND  contrasena='$password'";
-$query = mysqli_query($conexion,$consulta);
+else{
+	$query ="SELECT * FROM usuario WHERE nombre = '$nombre' AND pass = '$password'";
+	$consulta =  mysqli_query($conexion,$query);
 
-    echo "Bienvenido";
+	$row = mysqli_fetch_array($consulta);
 
+	if($row['id_role'] == 3){
+		session_start();
+		header('location: ../statusres.php');
+	}
+	else
+	if ($row['id_role'] == 4) {
+		session_start();
+		
+		header('location: ../res.php');
+	}
 }
+
 
 
 ?>

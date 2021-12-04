@@ -3,7 +3,7 @@
         <head>
             <meta charset="utf 8">
             <title>LoginTecnologico Campus Cancun </title>
-            <link rel="stylesheet"href="login.css">
+            <link rel="stylesheet"href="css/login.css">
 
         </head>
         <div class="login">
@@ -20,6 +20,8 @@
                 <a href="#">"No has podido iniciar sesion"</a>
                 <br>
                 <a href="#">"Olvidaste tu password?"</a>
+                
             </form>
+           
         </div>
     </html>
