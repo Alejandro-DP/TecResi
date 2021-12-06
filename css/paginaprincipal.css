@@ -31,9 +31,7 @@
     margin: 0;
     width: 100%;
 }
-.menu :hover{
-    background:#182C61;
-    }
+
      
 body{
     background:#f5f6fa;
@@ -81,10 +79,13 @@ body{
     margin-left: 50px;
     
     
+    
+}
+.nav-custom > a :hover{
+    color : #e8f0f5;
 }
 .imagen-top>.TEC{
     height: 400px;
     width: 400px;
 
 }
-
