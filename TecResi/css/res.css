@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+:root{
+    --primary-color:white;
+    --secondary-color:rgb(61 , 68 , 73);
+    --hightlight-color:#3282b8;
+
+    --dt-status-available-color:greenyellow;
+    --dt-status-away-color:lightsalmon;
+    --dt-status-offline-color:lightgray;
+
+    --dt-padding:12px;
+    --dt-padding-s:6px;
+    --dt-padding-xs:2px;
+
+    --dt-border-radius:3px;
+      
+    --dt-background-color-container:#82ccdd;
+    --dt-border-color:var(--secondary-color);
+    --dt-bg-color:var(--hightlight-color);
+    --dt-text-color:var(--primary-color);
+    --dt-bg-active-button:var(--primary-color);
+    --dt-text-color-active-button:var(--primary-color);
+    --dt-hover-cell-color:var(--secondary-color);
+    --dt-event-row-color:var(--secondary-color);
+    --dt-focus-color:var(--hightlight-color);
+    --dt-input-background-color:var(--secondary-color);
+    --dt-input-color: var(--primary-color);
+
+}
+.datatable-container{
+    font-family: 'Noto Sans',sans-serif;
+    background-color:var(--dt-background-color-container);
+    border-radius:(--dt-border-radius);
+    color:(var(--dt-text-color));
+    width: 300px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.datatable-container .header-tools .search .search-input{
+ width:30%;   
+}
+
+.datatable-container{
+    border-collapse: collapse;
+    width: 30%;
+}

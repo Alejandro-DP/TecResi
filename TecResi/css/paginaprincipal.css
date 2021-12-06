@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: sans-serif;
+    text-align: center;
+   
+    
+ 
+}
+ /* .menu {
+ display:flex;
+ justify-content: space-between;
+ justify-items: center;
+ position: absolute;
+ top:32%;
+ left:0%;
+ background-color:#273c75;
+ color: white;
+    } */
+    
+ .menu p {
+        margin-right: 6rem;
+    }
+
+
+
+.LogoTec{
+    display: flex;
+    top: 0;
+    margin: 0;
+    width: 100%;
+}
+
+     
+body{
+    background:#f5f6fa;
+    
+}
+ .social-bar{
+     position: fixed;
+     right: 0;
+     top:35%;
+     font-size: 1.5rem;
+     display: flex;
+     flex-direction:column;
+     align-items: flex-end;
+     z-index: 100;
+ }
+ .note{
+     margin-bottom: 30px;
+ }
+ .icon{
+     color: white;
+     text-decoration: none;
+     padding: .7rem;
+     display: flex;
+     transition: all .5s;
+ }
+
+ .icon-facebook{
+     background: blue;
+     color: #fff;
+     border-radius:1rem 0 0 0;
+ }
+
+ .icon-Youtube{
+     background: red;
+ }
+ 
+ .icon-Whattssap{
+     background: green;
+     border-radius: 0 0 0 1rem;
+ }
+.nav-custom  > a{
+    color : #e8f0f5;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 18px;
+    margin-left: 50px;
+    
+    
+    
+}
+.nav-custom > a :hover{
+    color : #e8f0f5;
+}
+.imagen-top>.TEC{
+    height: 400px;
+    width: 400px;
+
+}
