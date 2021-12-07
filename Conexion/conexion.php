@@ -1,7 +1,11 @@
 <?php
+$host='localhost';
+$user = 'root';
+$password='Amistad2021!';
+$db='residencia';
 
-$conexion = mysqli_connect ('localhost','root','' ,'residencia')
-or die(mysql_error(mysqli));
+$conexion = mysqli_connect($host,$user,$password,$db)or die();;
+
 
 // function insertar($conexion)
 // $Nombre = $_POST['Nombre'];

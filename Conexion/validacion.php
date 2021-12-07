@@ -25,13 +25,13 @@ else{
 
 	if($row['id_role'] == 3){
 		session_start();
-		header('location: ../statusres.php');
+		header('location: ./statusres.php');
 	}
 	else
 	if ($row['id_role'] == 4) {
 		session_start();
 		
-		header('location: ../res.php');
+		header('location: ./res.php');
 	}
 }
 
