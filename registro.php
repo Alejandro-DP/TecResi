@@ -31,48 +31,47 @@
 
         </section> -->
     <div class="container form-register">
-        <form class="row g-3">
+        <form class="row g-3 " action="Conexion/registrov.php" method="get">
             <div class="col-md-6">
                 <label for="inputNombre" class="form-label">nombre</label>
-                <input type="text" class="form-control" id="inputNombre">
+                <input type="text" class="form-control" name="inputNombre">
             </div>
             <div class="col-md-6">
                 <label for="inputApellido" class="form-label">Apellido</label>
-                <input type="Apellido" class="form-control" id="inputApellido">
+                <input type="Apellido" class="form-control" name="inputApellido">
             </div>
-            <div class="col-12">
+            <div class="col-md-6">
                 <label for="inputControl" class="form-label">No.Control</label>
-                <input type="number" class="form-control" id="inputControl" >
+                <input type="text" class="form-control" name="inputControl" >
             </div>
-            <div class="col-12">
+            <div class="col-md-6">
                 <label for="inputNaciemiento" class="form-label">Fecha de Nacimiento</label>
-                <input type="date" class="form-control" id="inputNaciemiento" >
+                <input type="date" class="form-control" name="inputNaciemiento" >
             </div>
             <div class="col-md-6">
                 <label for="inputCity" class="form-label">Ciudad</label>
-                <input type="text" class="form-control" id="inputCity">
+                <input type="text" class="form-control" name="inputCity">
             </div>
-            <div class="col-md-4">
-                <label for="inputState" class="form-label">State</label>
-                <select id="inputState" class="form-select">
-                <option selected>Choose...</option>
-                <option>...</option>
-                </select>
+            <div class="col-md-6">
+                <label for="inputRfc" class="form-label">RFC</label>
+                <input type="text" class="form-control" name="inputRfc">
             </div>
-            <div class="col-md-2">
-                <label for="inputZip" class="form-label">Zip</label>
-                <input type="text" class="form-control" id="inputZip">
+            <div class="col-md-6">
+                <label for="inputRfc" class="form-label">Telefono</label>
+                <input type="text" class="form-control" name="inputRfc">
             </div>
+            <div class="col-md-6">
+                <label for="inputRfc" class="form-label">Modalidad</label>
+                <input type="text" class="form-control" name="inputRfc">
+            </div>
+            <div class="col-md-6">
+                <label for="inputRfc" class="form-label">Mecanismo</label>
+                <input type="text" class="form-control" name="inputRfc">
+            </div>
+            
+           
             <div class="col-12">
-                <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                    Check me out
-                </label>
-                </div>
-            </div>
-            <div class="col-12">
-                <button type="submit" class="btn btn-primary">Sign in</button>
+                <button type="submit" class="btn btn-primary c">Registrar</button>
             </div>
         </form>
     </div>
