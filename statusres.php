@@ -30,11 +30,11 @@
                 <tbody>
                     <tr >
                         <th scope="row">
-                            <select class="custom-select" id="inputGroupSelect01">
+                            <select class="custom-select" id="inputGroupSelect01" >
                                 <option selected>Seleccione proyecto</option>
                                     <?php
                                     
-                                          
+                                          // este segmento de codigo sirve para llenar el select 
                                             $query = $conexion -> query ("SELECT * FROM projects");
                                             while ($valores = mysqli_fetch_array($query)) {
                                     
@@ -50,6 +50,7 @@
                   
                 </tbody>
             </table>
+           
             <!-- <div class="input-group mb-3">
                 <div class="input-group-prepend">
                     <label class="input-group-text" for="inputGroupSelect01">Options</label>

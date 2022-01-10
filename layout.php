@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/paginaprincipal.css">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="CSS/registro.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
@@ -29,6 +30,7 @@
       </div>
     </div>
   </nav>
-    <header/>
+    <header>
 </body>
+  <script type="text/javascript" src="node_modules/twitter-bootstrap-3.0.0/dist/js/bootstrap.js"></script>
 </html>
